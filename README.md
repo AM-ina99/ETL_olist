@@ -27,7 +27,12 @@ This project demonstrates a complete ETL pipeline for the Olist dataset, integra
   - Log data quality issues.
   - Return cleaned datasets.
 - ✅ Load cleaned data into the SQL Server database.
-
+- ✅ etl_scheduler providd, download in the same work directory:
+  * Open cmd in your directory.
+  * In the cmd write: python etl_scheduler.
+  * This will run etl scripts every (interval) of time.
+  * You cam modify your interval time in the etl_scheduler
+    
 ---
 
 ## 📂 Dataset Description
