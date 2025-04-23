@@ -49,6 +49,7 @@ Below are the details:
   * Paths in main:
     1. api_dat: paths of reviews, payments csv files
     2. log paths:
+       
        1."olist_raw" olist data folder path
        
        2."olist_ddl" : olist_ddl.txt
