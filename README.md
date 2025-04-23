@@ -50,15 +50,25 @@ Below are the details:
     1. api_dat: paths of reviews, payments csv files
     2. log paths:
        1."olist_raw" olist data folder path
+       
        2."olist_ddl" : olist_ddl.txt
+       
        3."record_log" your_path\log_file.csv, this file is created while running, contains the number of raw records and the number of records finally inserted into sql DB
+       
        4."pk_log" : your_path\invalid_pks.csv", this file is created while running, contains the invalid pks in all tables
+       
        5."fk_log" : your_path\invalid_fks.csv", this file is created while running, contains the invalid fks in all tables
+       
        6."issues_log" : your_path\data_quality_issues.csv", this file is created while running, contains the data quality issues in all tables
 - Click run
 
 ## Dashbaords
-- This dashboard delivers an in-depth analysis of Olist's sales and order data, covering the period from 2016 to 2018. It highlights key insights into sales trends, product performance, customer behavior, and delivery efficiency—enabling stakeholders to make data-driven decisions and enhance business strategies.
+
+This dashboard delivers an in-depth analysis of Olist's sales and order data, covering the period from 2016 to 2018.
+It highlights key insights into sales trends, product performance, customer behavior, and delivery efficiency—enabling stakeholders to make data-driven decisions and enhance business strategies.
+
+![image](https://github.com/user-attachments/assets/92789a34-c7c0-418a-aaac-bfc65fe965b8)
+
 
 ![image](https://github.com/user-attachments/assets/84abceb0-51be-4413-ba13-8536e036f84e)
 
