@@ -67,7 +67,7 @@ pip install requests
 ## 🚀 How To Run
 - Download olist_etl.py
 - Open in VS code
-- Change the main unction with your paths
+- Change the main function with your paths
 * Paths in main:
   1. api_dat: paths of reviews, payments csv files
   2. log paths:
