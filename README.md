@@ -3,7 +3,8 @@
 ## Table of Contents
 - [Pipeline Explaination](#Pipeline)
 - [Dataset](#Dataset)
+- [Data Modeling](#DataModeling)
 - [Installation](#Installation)
-- [Data Modeling](#Data_Modeling)
-- [PowerBI Dashboards]
+- [Run](#HowToRun)
+- [PowerBI Dashboards](#Dashbaords)
 
