@@ -5,8 +5,8 @@ It leverages Python's Object-Oriented Programming (OOP) principles to ensure the
 
 
 ## Table of Contents
-- [Pipeline Explaination](#Pipeline Explaination)
+- [Pipeline Explaination](#Pipeline)
 - [Dataset](#Dataset)
 - [Installation](#Installation)
-- [Data Modeling](#Data Moodeling)
+- [Data Modeling](#Data_Modeling)
 
