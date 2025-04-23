@@ -1,3 +1,100 @@
+
+
+
+
+
+# 🛒 Olist E-commerce Dataset: ETL Pipeline & Power BI Dashboard
+
+This project demonstrates a complete ETL pipeline for the Olist dataset, integrating FastAPI, pandas, SQLAlchemy, and Power BI. The aim is to clean, transform, and load e-commerce data into a SQL Server database, and visualize key business insights with interactive dashboards.
+
+---
+
+## 📑 Table of Contents
+- [🔁 ETL Pipeline Overview](#-etl-pipeline-overview)
+- [📂 Dataset Description](#-dataset-description)
+- [🗃️ Data Modeling](#️-data-modeling)
+- [🛠️ Installation Requirements](#-installation-requirements)
+- [🚀 How to Run](#-how-to-run)
+- [📊 Power BI Dashboards](#-power-bi-dashboards)
+
+---
+
+## 🔁 ETL Pipeline Overview
+
+- ✅ Build an API to return `order_reviews` and `order_payments` as JSON.
+- ✅ Fetch API data and convert to pandas DataFrames.
+- ✅ Create a SQL Server database using SQLAlchemy.
+- ✅ Extract remaining data from local CSVs.
+- ✅ Transform the data:
+  - Remove invalid primary/foreign keys.
+  - Log data quality issues.
+  - Return cleaned datasets.
+- ✅ Load cleaned data into the SQL Server database.
+
+---
+
+## 📂 Dataset Description
+
+- The dataset includes **9 CSV files** stored in the `Raw_Data/` folder.
+- A **`olist_ddl.txt`** file is also provided — it defines the database schema and is required for table creation.
+- All files must be downloaded and saved locally in the same working directory.
+
+---
+
+## 🗃️ Data Modeling
+
+The dataset is normalized into several SQL tables. Relationships among entities are defined by primary and foreign keys.
+
+![Data Modeling Schema](https://github.com/user-attachments/assets/a1a40abb-0fd0-4fe4-a13c-a5700fb20618)
+
+---
+
+## 🛠️ Installation Requirements
+
+Ensure the following tools are installed:
+
+- **Microsoft SQL Server**
+- **Visual Studio Code**
+- **Python 3.7+**
+
+### Python Libraries
+
+Install required libraries:
+```bash
+pip install sqlalchemy
+pip install fastapi uvicorn nest_asyncio
+pip install requests
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------
 ## Olist Ecommerce dataset ETL and PowerBI
 
 ## Table of Contents
