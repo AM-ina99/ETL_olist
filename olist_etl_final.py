@@ -187,11 +187,11 @@ class Extract:
                 offset += len(chunk_data)
                 print(f"Fetched {len(chunk_data)} records (total: {offset}/{total_records})", end="\r")
 
-            print(f"\n✅ Successfully fetched all {total_records} records from {endpoint}")
+            print(f"\n Successfully fetched all {total_records} records from {endpoint}")
             return pd.DataFrame(all_data)
 
         except Exception as e:
-            print(f"\n❌ Error at offset {offset}: {str(e)}")
+            print(f"\n Error at offset {offset}: {str(e)}")
             return pd.DataFrame(all_data)
 
     def extract_from_csvs(self, folder_path):
