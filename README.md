@@ -84,7 +84,7 @@ pip install requests
      
      6."issues_log" : your_path\data_quality_issues.csv", this file is created while running, contains the data quality issues in all tables
 - Click run
-- ✅ etl_scheduler providd, download in the same work directory:
+- ✅ etl_scheduler providd, download in the same work directory
 - Open cmd in your directory:
   
     * In the cmd write: python etl_scheduler.
