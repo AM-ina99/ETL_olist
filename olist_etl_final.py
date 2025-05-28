@@ -654,8 +654,8 @@ if __name__ == "__main__":
     #in this dict, chnage the paths to yours.
     #these paths for data that will be accecced by API
     api_data = {
-            "payments" : r"C:\Users\Menna Mohamed\Downloads\Atos\Final project\Ecommerce Dataset\olist_order_payments_dataset.csv",
-            "reviews" : r"C:\Users\Menna Mohamed\Downloads\Atos\Final project\Ecommerce Dataset\olist_order_reviews_dataset.csv"
+            "payments" :  r'your_path',
+            "reviews" :  r'your_path'
           }
     
     '''
@@ -670,20 +670,20 @@ if __name__ == "__main__":
         issues_log: data quality issues file path
     '''
     log_paths = {
-        "olist_raw" : r'C:/Users/Menna Mohamed/Downloads/Atos/Final project/Ecommerce Dataset',
-        "olist_ddl" : r'C:\Users\Menna Mohamed\Downloads\Atos\olist_ddl.txt',
-        "record_log" : r"C:\Users\Menna Mohamed\Downloads\Atos\Final project\log_file.csv",
-        "pk_log" : r"C:\Users\Menna Mohamed\Downloads\Atos\Final project\invalid_pks.csv", 
-        "fk_log" : r"C:\Users\Menna Mohamed\Downloads\Atos\Final project\invalid_fks.csv",
-        "issues_log" : r"C:\Users\Menna Mohamed\Downloads\Atos\Final project\data_quality_issues.csv",
-        "test_products" : r"C:\Users\Menna Mohamed\Downloads\Atos\Final project\test_data\test_products.csv"
+        "olist_raw" : r'your_path',
+        "olist_ddl" : r'your_path\olist_ddl.txt',
+        "record_log" :  r'your_path'log_file.csv",
+        "pk_log" : r'your_path'\invalid_pks.csv", 
+        "fk_log" : r'your_path'\invalid_fks.csv",
+        "issues_log" : r'your_path'\data_quality_issues.csv",
+        "test_products" : r'your_path'\test_products.csv"
          }
     
     # change to your connection settings
     config = {
-        "driver": "ODBC Driver 17 for SQL Server",
-        "server": "DESKTOP-TS3TVPU\\SQLEXPRESS",
-        "database": "olist_oop"
+        "driver": "your driver",
+        "server": "your server",
+        "database": "your database name"
     }
 
     #start api
