@@ -732,14 +732,4 @@ if __name__ == "__main__":
     issues_logger.check_all_missing_values(clean_dfs, log_paths['issues_log'])
     issues_logger.check_all_duplicates(clean_dfs, log_paths['issues_log'])
     issues_logger.check_order_dates(clean_dfs['orders'],'orders', log_paths['issues_log'] )
-
-   # delta = DeltaAndHistory(connector)
-   # delta.apply_delta_type2(log_paths['test_products'], clean_dfs, 'products', 'product_id')
-    
-
-
-    
-
-    
-    
-    
+  
