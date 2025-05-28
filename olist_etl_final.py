@@ -163,7 +163,7 @@ class CreateDataBaseTables:
 class Extract:  
 
     # This function can remain outside the class to fetch data
-    def fetch_all_data_api(self, endpoint: str, chunk_size: int = 10000, base_url: str = "http://localhost:8000"):
+    def fetch_all_data_api(self, endpoint: str, chunk_size: int = 10000, base_url: str = "http://localhost:your port number"):
         all_data = []
         offset = 0
         total_records = None
