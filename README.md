@@ -2,7 +2,7 @@
 
 # Olist E-commerce Dataset: ETL Pipeline & Power BI Dashboard
 
-This project demonstrates a complete ETL pipeline for the Olist dataset, integrating FastAPI, pandas, SQLAlchemy, and Power BI. The aim is to clean, transform, and load e-commerce data into a SQL Server database, and visualize key business insights with interactive dashboards.
+This project demonstrates a complete ETL pipeline for the Olist dataset, integrating FastAPI, pandas, SQLAlchemy, Microsoft SQL server and Power BI. The aim is to clean, transform, and load e-commerce data into a SQL Server database, and visualize key business insights with interactive dashboards.
 
 ---
 
