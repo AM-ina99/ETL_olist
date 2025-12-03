@@ -96,10 +96,14 @@ pip install requests
 This dashboard delivers an in-depth analysis of Olist's sales and order data, covering the period from 2016 to 2018.
 It highlights key insights into sales trends, product performance, customer behavior, and delivery efficiency—enabling stakeholders to make data-driven decisions and enhance business strategies.
 
-![image](https://github.com/user-attachments/assets/92789a34-c7c0-418a-aaac-bfc65fe965b8)
+![image](page1.PNG)
 
 
-![image](https://github.com/user-attachments/assets/84abceb0-51be-4413-ba13-8536e036f84e)
+![image](page2.PNG)
+
+![image](page3.PNG)
+
+
 
 
 
